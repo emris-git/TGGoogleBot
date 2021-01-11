@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Google.Apis.Auth" Version="1.49.0" />
+        <PackageReference Include="Google.Apis.Calendar.v3" Version="1.19.0.677" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.10" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.9" />
+        <PackageReference Include="Telegram.Bot" Version="15.7.1" />
+    </ItemGroup>
+</Project>
